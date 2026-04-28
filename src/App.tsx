@@ -38,12 +38,6 @@ export default function App() {
         <div className="flex items-center gap-3">
           <span className="font-bold tracking-[0.3em] text-xs">ZAINA.MANAL</span>
         </div>
-        <div className="flex gap-8 text-[10px] uppercase tracking-[0.2em] text-white/40 font-medium">
-          <a href="#profile" className="text-white hover:text-accent transition-colors">01. Profile</a>
-          <a href="#expertise" className="hover:text-accent transition-colors">02. Expertise</a>
-          <a href="#education" className="hover:text-accent transition-colors">03. Education</a>
-          <a href="#contact" className="hover:text-accent transition-colors">04. Contact</a>
-        </div>
       </nav>
 
       <div className="flex-1 flex overflow-hidden">
@@ -68,9 +62,7 @@ export default function App() {
               initial="hidden"
               animate="visible"
             >
-              <motion.div variants={itemVariants} className="inline-block px-4 py-1.5 border border-white/10 text-[9px] tracking-[0.2em] uppercase font-bold mb-12 bg-white/5">
-                CANDIDATE PROFILE &bull; ID #ZM-2026
-              </motion.div>
+
               
               <motion.h1 variants={itemVariants} className="text-7xl md:text-[10rem] font-light leading-[0.85] tracking-tighter mb-8 lowercase text-white">
                 Zaina <br/>
